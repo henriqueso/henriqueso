@@ -72,6 +72,8 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y python-pip
 
     sudo pip install virtualenv
+    
+    sudo pip install whitenoise
 
     mkdir -p envs
 
